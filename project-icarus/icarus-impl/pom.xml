@@ -7,5 +7,4 @@
 	</parent>
   <groupId>com.icarus.icarus-impl</groupId>
   <artifactId>icarus-impl</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
-</project>
+  </project>

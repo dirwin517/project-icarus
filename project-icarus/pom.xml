@@ -1,20 +1,42 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <modelVersion>4.0.0</modelVersion>
-  <groupId>com.icarus.project</groupId>
-  <artifactId>project-icarus</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
-  <packaging>pom</packaging>
-  <modules>
-  	<module>cloud-api</module>
-  	<module>cloud-impl</module>
-  	<module>cloud-model</module>
-  	<module>icarus-client</module>
-  	<module>icarus-impl</module>
-  	<module>icarus-model</module>
-  	<module>icarus-webapp</module>
-  	<module>jenkins-plugin</module>
-  	<module>provisioner-api</module>
-  	<module>provisioner-impl</module>
-  	<module>provisioner-model</module>
-  </modules>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.icarus.project</groupId>
+	<artifactId>project-icarus</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>pom</packaging>
+	<modules>
+		<module>cloud-api</module>
+		<module>cloud-impl</module>
+		<module>cloud-model</module>
+		<module>icarus-client</module>
+		<module>icarus-impl</module>
+		<module>icarus-model</module>
+		<module>icarus-webapp</module>
+		<module>jenkins-plugin</module>
+		<module>provisioner-api</module>
+		<module>provisioner-impl</module>
+		<module>provisioner-model</module>
+	</modules>
+	<properties>
+		<java-version>1.8</java-version>
+		<org.springframework-version>4.0.6.RELEASE</org.springframework-version>
+		<org.aspectj-version>1.6.10</org.aspectj-version>
+		<org.slf4j-version>1.6.6</org.slf4j-version>
+		<jclouds.version>1.8.0</jclouds.version>
+	</properties>
+
+	<dependencies>
+		<dependency>
+			<groupId>commons-io</groupId>
+			<artifactId>commons-io</artifactId>
+			<version>2.4</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.json</groupId>
+			<artifactId>json</artifactId>
+			<version>20140107</version>
+		</dependency>
+	</dependencies>
 </project>

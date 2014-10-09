@@ -7,5 +7,4 @@
 	</parent>
   <groupId>com.icarus.cloud.model</groupId>
   <artifactId>cloud-model</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
-</project>
+  </project>

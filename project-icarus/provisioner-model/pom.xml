@@ -7,5 +7,4 @@
 	</parent>
   <groupId>com.icarus.provisioner.model</groupId>
   <artifactId>provisioner-model</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
-</project>
+  </project>

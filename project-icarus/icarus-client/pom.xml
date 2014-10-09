@@ -7,5 +7,4 @@
 	</parent>
   <groupId>com.icarus.client</groupId>
   <artifactId>icarus-client</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
-</project>
+  </project>

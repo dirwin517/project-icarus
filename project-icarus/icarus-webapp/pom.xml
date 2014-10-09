@@ -6,72 +6,9 @@
 	<artifactId>icarus-webapp</artifactId>
 	<name>swagger4spring-web-example</name>
 	<packaging>war</packaging>
-	<version>1.0.0-BUILD-SNAPSHOT</version>
-	<properties>
-		<java-version>1.8</java-version>
-		<org.springframework-version>4.0.6.RELEASE</org.springframework-version>
-		<org.aspectj-version>1.6.10</org.aspectj-version>
-		<org.slf4j-version>1.6.6</org.slf4j-version>
-		<jclouds.version>1.8.0</jclouds.version>
-	</properties>
 
 	<dependencies>
-		<dependency>
-			<groupId>com.jcraft</groupId>
-			<artifactId>jsch</artifactId>
-			<version>0.1.51</version>
-		</dependency>
-		<dependency>
-			<groupId>commons-io</groupId>
-			<artifactId>commons-io</artifactId>
-			<version>2.4</version>
-		</dependency>
 
-		<dependency>
-			<groupId>org.json</groupId>
-			<artifactId>json</artifactId>
-			<version>20140107</version>
-		</dependency>
-		<dependency>
-			<groupId>com.amazonaws</groupId>
-			<artifactId>aws-java-sdk</artifactId>
-			<version>1.8.8</version>
-		</dependency>
-		<dependency>
-			<groupId>org.apache.jclouds</groupId>
-			<artifactId>jclouds-compute</artifactId>
-			<version>${jclouds.version}</version>
-		</dependency>
-		<dependency>
-			<groupId>org.apache.jclouds.api</groupId>
-			<artifactId>chef</artifactId>
-			<version>${jclouds.version}</version>
-		</dependency>
-		<dependency>
-			<groupId>org.apache.jclouds</groupId>
-			<artifactId>jclouds-allcompute</artifactId>
-			<version>${jclouds.version}</version>
-		</dependency>
-		<dependency>
-			<groupId>org.apache.jclouds.labs</groupId>
-			<artifactId>joyentcloud</artifactId>
-			<version>${jclouds.version}</version>
-		</dependency>
-		<dependency>
-			<groupId>org.apache.jclouds.labs</groupId>
-			<artifactId>virtualbox</artifactId>
-			<version>${jclouds.version}</version>
-		</dependency>
-		<dependency>
-			<groupId>org.apache.jclouds.driver</groupId>
-			<artifactId>jclouds-sshj</artifactId>
-			<version>${jclouds.version}</version>
-		</dependency>
-		<dependency>
-			<groupId>org.apache.jclouds.driver</groupId>
-			<artifactId>jclouds-enterprise</artifactId>
-			<version>${jclouds.version}</version>
-		</dependency>
 		<dependency>
 			<groupId>com.knappsack</groupId>
 			<artifactId>swagger4spring-web</artifactId>

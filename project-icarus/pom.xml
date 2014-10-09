@@ -1,0 +1,20 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.icarus.project</groupId>
+  <artifactId>project-icarus</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>pom</packaging>
+  <modules>
+  	<module>cloud-api</module>
+  	<module>cloud-impl</module>
+  	<module>cloud-model</module>
+  	<module>icarus-client</module>
+  	<module>icarus-impl</module>
+  	<module>icarus-model</module>
+  	<module>icarus-webapp</module>
+  	<module>jenkins-plugin</module>
+  	<module>provisioner-api</module>
+  	<module>provisioner-impl</module>
+  	<module>provisioner-model</module>
+  </modules>
+</project>

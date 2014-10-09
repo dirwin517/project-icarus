@@ -11,12 +11,13 @@
 		
 		<module>cloud-model</module>
 		<module>cloud-api</module>
-		<module>cloud-impl</module>
+		<module>cloud-impl-aws</module>
 		
 		<module>provisioner-api</module>
 		<module>provisioner-model</module>
-		<module>provisioner-impl</module>
+		<module>provisioner-impl-chef-sshBootstrap</module>
 		
+        <module>icarus-dao</module>
 		<module>icarus-client</module>
 		<module>icarus-impl</module>
 		<module>icarus-webapp</module>

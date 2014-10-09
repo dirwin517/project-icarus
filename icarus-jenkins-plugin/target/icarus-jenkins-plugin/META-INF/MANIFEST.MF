@@ -9,7 +9,7 @@ Group-Id: com.icarus.jenkins
 Short-Name: icarus-jenkins-plugin
 Long-Name: icarus-jenkins-plugin
 Url: http://jenkins-ci.org/plugin/icarus-jenkins-plugin/
-Plugin-Version: 1.0-SNAPSHOT (private-1b8c13cf-daniel.irwin)
+Plugin-Version: 1.0-SNAPSHOT (private-3e49d937-daniel.irwin)
 Hudson-Version: 1.581
 Jenkins-Version: 1.581
 Plugin-Developers: 
